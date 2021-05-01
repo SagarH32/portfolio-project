@@ -56,7 +56,8 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(background.jpg) no-repeat;
+  /* background: url(background.jpg) no-repeat; */
+  background-color: #003049;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -123,6 +124,36 @@ nav ul li {
   .particles-canvas {
     display: none;
   }
+}
+
+.projects {
+  background-color: #003049 !important;
+}
+
+.main-project-info {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", "sans-serif";
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.projects-btn {
+  margin: 20px !important;
+}
+.card-text {
+  justify-content: left !important;
+  text-align: left;
+}
+.card img {
+  max-width: 800px;
 }
 
 /**********Menu Links************/

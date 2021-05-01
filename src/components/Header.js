@@ -1,5 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
@@ -23,6 +25,13 @@ const Header = () => {
           />
           <a href="" className="btn-contact">
             Contact Me
+          </a>
+          <a href="" className="btn-contact">
+            <FontAwesomeIcon
+              icon={faDownload}
+              style={{ color: "white", paddingRight: "5px" }}
+            />{" "}
+            Download My CV
           </a>
         </div>
       </div>

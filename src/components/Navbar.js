@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -25,13 +25,14 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
+              <link to="/"></link>
               <a className="nav-link" href="#">
                 Home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Portfolio
+                Projects
               </a>
             </li>
             <li className="nav-item">
